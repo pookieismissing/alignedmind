@@ -1,3 +1,5 @@
+//I have no idea how this works. It just does. I don't need any help with it!
+
 // ===================================
 // MOBILE MENU TOGGLE
 // ===================================
@@ -69,25 +71,31 @@ window.addEventListener('scroll', () => {
 // FAQ ACCORDION
 // ===================================
 
-const faqItems = document.querySelectorAll('.faq-item');
+document.addEventListener("DOMContentLoaded", function () {
+  const questions = document.querySelectorAll(".faq-question");
 
-faqItems.forEach(item => {
-    const question = item.querySelector('.faq-question');
-    
-    question.addEventListener('click', () => {
-        const isActive = item.classList.contains('active');
-        
-        // Close all FAQ items
-        faqItems.forEach(faq => {
-            faq.classList.remove('active');
-        });
-        
-        // Open clicked item if it wasn't active
-        if (!isActive) {
-            item.classList.add('active');
-        }
+  questions.forEach(function (question) {
+    question.addEventListener("click", function () {
+      const item = question.closest(".faq-item");
+      const answer = item.querySelector(".faq-answer");
+      const toggle = question.querySelector(".faq-toggle");
+      const isOpen = item.classList.contains("open");
+
+      document.querySelectorAll(".faq-item").forEach(function (el) {
+        el.classList.remove("open");
+        el.querySelector(".faq-answer").style.maxHeight = null;
+        el.querySelector(".faq-toggle").textContent = "+";
+      });
+
+      if (!isOpen) {
+        item.classList.add("open");
+        answer.style.maxHeight = answer.scrollHeight + "px";
+        toggle.textContent = "−";
+      }
     });
+  });
 });
+
 
 // ===================================
 // PRACTICE INFO TABS
