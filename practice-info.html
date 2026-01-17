@@ -10,14 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <a href="./" class="logo">
-                <span class="logo-main">Aligned Mind</span>
-                <span class="logo-sub">Psychology & Wellness</span>
+                <img src="logo.png" alt="Aligned Mind Psychiatry and Wellness" class="logo-image">
             </a>
-            
             <div class="nav-links">
                 <a href="./" class="nav-link">Home</a>
                 <a href="about" class="nav-link">About</a>
@@ -27,16 +24,12 @@
                 <a href="practice-info" class="nav-link active">Practice Information</a>
                 <a href="https://portal.example.com" class="nav-link portal-link" target="_blank">Patient Portal</a>
             </div>
-            
             <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
 
-    <!-- Page Header -->
     <section class="page-header">
         <div class="container">
             <h1>Practice Information</h1>
@@ -44,235 +37,210 @@
         </div>
     </section>
 
-    <!-- Practice Information Section -->
     <section class="practice-info">
         <div class="container">
             <div class="info-tabs">
                 <div class="tab-buttons">
-                    <button class="tab-button active" data-tab="policies">Practice Policies</button>
-                    <button class="tab-button" data-tab="payment">Payment & Insurance</button>
+                    <button class="tab-button active" data-tab="philosophy">Philosophy</button>
+                    <button class="tab-button" data-tab="payment">Payment Policy</button>
+                    <button class="tab-button" data-tab="attendance">Attendance</button>
+                    <button class="tab-button" data-tab="scope">Scope of Practice</button>
+                    <button class="tab-button" data-tab="controlled">Controlled Substances</button>
+                    <button class="tab-button" data-tab="communication">Communication</button>
+                    <button class="tab-button" data-tab="boundaries">Boundaries</button>
                     <button class="tab-button" data-tab="privacy">Privacy Policy</button>
-                    <button class="tab-button" data-tab="terms">Terms of Service</button>
+                    <button class="tab-button" data-tab="additional">Additional Policies</button>
                 </div>
                 
-                <div class="tab-content active" id="policies">
-                    <h3>Practice Policies</h3>
-                    
-                    <h4>Appointments & Scheduling</h4>
-                    <p>Sessions are typically 50 minutes in length. Please arrive on time for your appointment. For in-person sessions, please check in at the front desk. For telehealth sessions, please log in a few minutes early to ensure your technology is working properly.</p>
-                    
-                    <h4>Cancellation Policy</h4>
-                    <p>We require at least 24 hours notice for cancellations or rescheduling. This allows us to offer your time slot to another client in need. Late cancellations (less than 24 hours notice) or no-shows may be subject to a fee equal to the full session rate, which cannot be billed to insurance.</p>
-                    
-                    <p>We understand that emergencies and unexpected situations occur. If you need to cancel with less than 24 hours notice due to a genuine emergency, please contact us as soon as possible and we will work with you on a case-by-case basis.</p>
-                    
-                    <h4>Communication</h4>
-                    <p>For non-urgent matters, please contact us by phone or email. We will respond within 24-48 business hours. Brief check-ins or scheduling questions are welcome between sessions.</p>
-                    
-                    <p><strong>In case of a mental health emergency</strong>, please call 911, go to your nearest emergency room, or call/text the 988 Suicide & Crisis Lifeline. Our practice is not equipped to handle emergency situations outside of scheduled session times.</p>
-                    
-                    <h4>Professional Boundaries</h4>
-                    <p>To maintain the therapeutic relationship and your privacy, we do not accept social media connections (Facebook, Instagram, LinkedIn, etc.) with current or former clients. All communication should occur through professional channels (phone, email, or patient portal).</p>
-                    
-                    <p>If we encounter each other in public, we will not acknowledge the therapeutic relationship unless you initiate contact first. This protects your privacy and confidentiality.</p>
-                    
-                    <h4>Record Keeping</h4>
-                    <p>We maintain clinical records in accordance with Connecticut state law and professional ethical guidelines. Your records are kept confidential and stored securely. You have the right to request copies of your records at any time.</p>
+                <div class="tab-content active" id="philosophy">
+                    <h3>Practice Philosophy</h3>
+                    <p class="lead-text">At Aligned Mind Psychiatry and Wellness, care is grounded in the belief that mental health is best supported when clinical knowledge and inner balance are held together.</p>
+                    <p>Psychiatric treatment is most effective when it is thoughtful, collaborative, and individualized. Medication, when appropriate, is used carefully and conservatively, as one part of a broader approach that also values insight, self-awareness, and non-pharmacologic supports.</p>
+                    <p>The goal of care is not simply symptom reduction, but greater clarity, stability, and long-term well-being. Treatment is guided by evidence-based practice, ethical boundaries, and respect for each person's unique experience.</p>
+                    <div style="background: var(--color-off-white); padding: 30px; border-radius: 8px; margin: 30px 0; border-left: 4px solid var(--color-sage);">
+                        <p style="font-family: var(--font-serif); font-size: 20px; font-style: italic; color: var(--color-dark); margin: 0;">Care that is intentional, grounded, and aligned with you.</p>
+                    </div>
                 </div>
                 
                 <div class="tab-content" id="payment">
-                    <h3>Payment & Insurance</h3>
-                    
-                    <h4>Insurance</h4>
-                    <p>We are in-network with most major insurance providers. Please contact our office to verify your specific coverage. We will bill your insurance directly as a courtesy to you.</p>
-                    
-                    <p>Please be aware that your insurance company may require a mental health diagnosis for coverage, and they may request information about your treatment. We are required to provide this information to your insurance company in order to receive payment.</p>
-                    
-                    <h4>Insurance Verification</h4>
-                    <p>Before your first appointment, we recommend contacting your insurance company to verify your mental health benefits. Questions to ask include:</p>
+                    <h3>Payment Policy</h3>
+                    <h4>Self-Pay Only</h4>
+                    <p>This practice operates on a self-pay basis and does not accept insurance, including Medicare or Medicaid.</p>
+                    <h4>Fees for Services</h4>
                     <ul>
-                        <li>Do I have mental health benefits?</li>
-                        <li>What is my deductible and has it been met?</li>
-                        <li>What is my co-pay or coinsurance for outpatient mental health services?</li>
-                        <li>How many sessions per year are covered?</li>
-                        <li>Do I need a referral or prior authorization?</li>
+                        <li><strong>New Patient Evaluation:</strong> $200</li>
+                        <li><strong>Follow-Up Medication Management:</strong> $100</li>
+                        <li><strong>No-Show Fee:</strong> $75 (waived with 24 hours notice)</li>
+                        <li><strong>Form Completion:</strong> $40 (outside appointments)</li>
                     </ul>
-                    
-                    <h4>Self-Pay Rates</h4>
-                    <p>For those without insurance or who prefer to self-pay, we offer competitive rates. Please contact our office for current fee information. Payment is due at the time of service unless other arrangements have been made in advance.</p>
-                    
                     <h4>Payment Methods</h4>
-                    <p>We accept cash, check, and major credit cards (Visa, Mastercard, American Express, Discover). Payment is due at the time of service unless other arrangements have been made in advance.</p>
-                    
-                    <h4>Superbills</h4>
-                    <p>For out-of-network insurance plans, we can provide detailed superbills that you can submit to your insurance company for potential reimbursement. Superbills include all necessary information for insurance claims, including diagnosis codes and service dates.</p>
-                    
-                    <h4>Sliding Scale</h4>
-                    <p>We have limited sliding scale spots available for those experiencing financial hardship. Please inquire about availability during your initial consultation. Sliding scale rates are determined based on income and are offered on a case-by-case basis.</p>
-                    
-                    <h4>Fees for Additional Services</h4>
-                    <p>Additional fees may apply for services such as:</p>
+                    <p>We accept cash, check, or credit card. Clients are encouraged to keep a valid credit card on file. The card will not be charged until end of business on the day of appointment.</p>
+                    <p><strong>Clients are responsible for full payment regardless of insurance reimbursement eligibility.</strong></p>
+                    <h4>Insurance Reimbursement</h4>
+                    <p>The practice does not submit claims to insurance companies. Clients may request a superbill for potential out-of-network reimbursement; however, reimbursement is not guaranteed and is solely the client's responsibility.</p>
+                    <h4>Financial Responsibility</h4>
+                    <p>Failure to pay outstanding balances may result in suspension or termination of services.</p>
+                </div>
+                
+                <div class="tab-content" id="attendance">
+                    <h3>Attendance, Cancellations, and No-Show Policy</h3>
+                    <h4>Appointment Attendance</h4>
+                    <p>Clients are expected to attend all scheduled appointments on time. Consistent attendance is essential for safe and effective treatment.</p>
+                    <h4>Late Arrivals</h4>
+                    <p>If a client arrives late, the appointment may be shortened or rescheduled at the provider's discretion. Full session fees may still apply.</p>
+                    <h4>Cancellations</h4>
+                    <p>Clients must provide at least 24 hours' notice to cancel or reschedule. Notice may be given via phone or secure messaging.</p>
+                    <h4>No-Shows and Late Cancellations</h4>
+                    <p>A no-show is missing an appointment without notice or canceling with less than 24 hours' notice. A $75 fee may be charged. Repeated no-shows may result in discharge from the practice.</p>
+                    <h4>Emergency Exceptions</h4>
+                    <p>Fees may be waived in cases of documented emergencies.</p>
+                </div>
+                
+                <div class="tab-content" id="scope">
+                    <h3>Scope of Practice and Acuity Policy</h3>
+                    <h4>Appropriate Level of Care</h4>
+                    <p>This practice provides outpatient psychiatric evaluation and medication management for individuals whose clinical needs can be safely managed in a low-acuity outpatient setting.</p>
+                    <h4>This practice does NOT provide care for:</h4>
                     <ul>
-                        <li>Letters or documentation for school, work, or legal purposes</li>
-                        <li>Phone consultations exceeding 10 minutes</li>
-                        <li>Late cancellations or no-shows</li>
-                        <li>Record copying fees</li>
+                        <li>Individuals with active suicidal or homicidal intent</li>
+                        <li>Those requiring inpatient, residential, or intensive outpatient treatment</li>
+                        <li>Severe psychosis or mania impairing outpatient participation</li>
+                        <li>Acute substance withdrawal or intoxication</li>
                     </ul>
+                    <h4>Emergency Situations</h4>
+                    <p><strong>This practice is NOT an emergency service.</strong> For psychiatric emergencies:</p>
+                    <ul>
+                        <li>Call 911</li>
+                        <li>Go to the nearest emergency department</li>
+                        <li>Call or text 988 (Suicide & Crisis Lifeline)</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-content" id="controlled">
+                    <h3>Controlled Substances Policy</h3>
+                    <h4>No Controlled Substance Prescribing</h4>
+                    <p><strong>This practice does NOT prescribe controlled substances</strong>, including:</p>
+                    <ul>
+                        <li>Stimulants (amphetamines, methylphenidate)</li>
+                        <li>Benzodiazepines</li>
+                        <li>Opioid medications</li>
+                        <li>Sedative-hypnotics classified as controlled substances</li>
+                    </ul>
+                    <p>This policy promotes safe, evidence-based care and minimizes risks of dependency, misuse, and diversion. Requests for controlled substances will not be accommodated.</p>
+                </div>
+                
+                <div class="tab-content" id="communication">
+                    <h3>Communication Policy</h3>
+                    <h4>Approved Methods</h4>
+                    <p>Communicate via secure patient portal or telephone during business hours.</p>
+                    <h4>Response Time</h4>
+                    <p>Non-urgent messages returned within 1–2 business days. Messages outside business hours addressed next business day.</p>
+                    <h4>Limitations</h4>
+                    <p>Electronic messaging is for brief administrative matters or non-urgent questions. Complex issues require a scheduled appointment.</p>
+                    <h4>Emergencies</h4>
+                    <p><strong>This practice does NOT provide crisis services.</strong> Call 911, go to ER, or call/text 988.</p>
+                </div>
+                
+                <div class="tab-content" id="boundaries">
+                    <h3>Professional Boundaries</h3>
+                    <h4>Therapeutic Relationship</h4>
+                    <p>The provider-client relationship is professional and focused solely on psychiatric care.</p>
+                    <h4>Boundaries</h4>
+                    <ul>
+                        <li>No social, romantic, or financial relationships outside therapy</li>
+                        <li>Dual relationships that impair judgment are avoided</li>
+                        <li>Contact limited to clinical/administrative matters via approved channels</li>
+                    </ul>
+                    <h4>Gifts and Social Media</h4>
+                    <ul>
+                        <li>Gifts are discouraged and may be declined</li>
+                        <li>Provider does not connect on social media with clients</li>
+                    </ul>
+                    <h4>Respectful Conduct</h4>
+                    <p>Harassment, abusive language, or inappropriate behavior may result in termination of services.</p>
                 </div>
                 
                 <div class="tab-content" id="privacy">
                     <h3>Privacy Policy (HIPAA Notice)</h3>
-                    
-                    <h4>Your Health Information Rights</h4>
-                    <p>Your health information is protected under the Health Insurance Portability and Accountability Act (HIPAA). You have the right to:</p>
+                    <h4>Your Privacy Matters</h4>
+                    <p>Your personal health information is protected by federal HIPAA law and Connecticut state law.</p>
+                    <h4>How Information Is Used</h4>
                     <ul>
-                        <li>Receive a copy of your health records</li>
-                        <li>Request corrections to your health records</li>
-                        <li>Receive a notice of how your information may be used and shared</li>
-                        <li>Decide if you want to give permission before we use or share your information for certain purposes</li>
-                        <li>Request that we communicate with you in a specific way or at a specific location</li>
-                        <li>Request restrictions on certain uses and disclosures</li>
-                        <li>Receive an accounting of disclosures of your health information</li>
+                        <li><strong>Treatment</strong> – providing psychiatric care</li>
+                        <li><strong>Payment</strong> – processing payments/receipts</li>
+                        <li><strong>Operations</strong> – quality improvement, legal compliance</li>
                     </ul>
-                    
-                    <h4>How We Use Your Information</h4>
-                    <p>We use and disclose your health information to:</p>
+                    <h4>Limits of Confidentiality</h4>
+                    <p>Information may be shared without permission for:</p>
                     <ul>
-                        <li><strong>Provide treatment:</strong> We use your information to provide, coordinate, and manage your mental health care and services.</li>
-                        <li><strong>Process payment:</strong> We use and share your information to bill and receive payment from you, your insurance company, or a third party.</li>
-                        <li><strong>Conduct normal healthcare operations:</strong> We may use and disclose your information for practice management, quality improvement, and training purposes.</li>
+                        <li>Concern about serious harm to you or others</li>
+                        <li>Legal requirement to report abuse/neglect (child, elderly 60+, person with intellectual disability)</li>
+                        <li>Court order or subpoena</li>
                     </ul>
-                    
-                    <h4>When We May Share Your Information Without Your Authorization</h4>
-                    <p>We may share your information without your written permission in limited circumstances, including:</p>
+                    <h4>Mandated Reporter</h4>
+                    <p>As a CT-licensed APRN, the provider is a mandated reporter and must report suspected abuse, neglect, or exploitation.</p>
+                    <h4>Your Rights</h4>
                     <ul>
-                        <li>When required by law (such as reporting child abuse or elder abuse)</li>
-                        <li>To prevent serious harm to you or others if there is imminent danger</li>
-                        <li>For public health and safety purposes</li>
-                        <li>In response to a court order or subpoena (though we will make reasonable efforts to notify you first)</li>
-                        <li>For workers' compensation claims</li>
-                        <li>To military authorities if you are a member of the armed forces</li>
+                        <li>Request copies of your medical record</li>
+                        <li>Ask for corrections</li>
+                        <li>Request limits on information sharing</li>
+                        <li>File complaints without retaliation</li>
                     </ul>
-                    
-                    <h4>Your Choices</h4>
-                    <p>You can ask us not to share certain health information for treatment, payment, or administrative purposes. We will honor your request when possible, but we are not required to agree to your request in all cases.</p>
-                    
-                    <h4>Data Security</h4>
-                    <p>We take the security of your health information seriously. We maintain physical, electronic, and procedural safeguards to protect your information. All electronic communications and records are encrypted and stored securely.</p>
-                    
-                    <h4>Telehealth Privacy</h4>
-                    <p>For telehealth sessions, we use a secure, HIPAA-compliant video platform. Please ensure you are in a private location during your session to protect your own confidentiality.</p>
-                    
-                    <p class="policy-note">This is a brief summary. A complete Notice of Privacy Practices will be provided at your first appointment and is available upon request.</p>
                 </div>
                 
-                <div class="tab-content" id="terms">
-                    <h3>Terms of Service</h3>
-                    
-                    <h4>Therapeutic Relationship</h4>
-                    <p>By engaging in therapy services with Aligned Mind Psychiatry and Wellness, you agree to participate actively in your treatment and to communicate openly about your experiences, concerns, and progress. Therapy is most effective when both parties work collaboratively.</p>
-                    
-                    <h4>Scope of Services</h4>
-                    <p>Our services are designed to support mental health and wellness through psychotherapy and counseling. Therapy is not a substitute for medical treatment, and we may recommend additional services or referrals when appropriate, such as:</p>
+                <div class="tab-content" id="additional">
+                    <h3>Additional Policies</h3>
+                    <h4>In-Person Services Only</h4>
+                    <p>This practice provides in-person services only. No telehealth is currently offered. All appointments occur at our Milford, CT location.</p>
+                    <h4>Medication Refill Policy</h4>
+                    <p>Refills require active relationship and adherence to follow-up appointments. Requests submitted via approved channels may take 2–3 business days. Refills denied if overdue for follow-up or outstanding balance. No emergency refills provided.</p>
+                    <h4>Emotional Support Animal (ESA) Policy</h4>
+                    <p><strong>This practice does NOT provide ESA letters, evaluations, or documentation under any circumstances.</strong> This includes requests for housing, travel, or employment. Clients seeking ESA documentation should pursue providers who specifically offer that service.</p>
+                    <h4>Discharge/Termination</h4>
+                    <p>Services may be terminated for:</p>
                     <ul>
-                        <li>Psychiatric evaluation for medication management</li>
-                        <li>Medical evaluation for physical health concerns</li>
-                        <li>Specialized treatment for substance abuse</li>
-                        <li>Higher levels of care if needed (intensive outpatient, partial hospitalization, or inpatient treatment)</li>
+                        <li>Repeated missed appointments</li>
+                        <li>Nonpayment of fees</li>
+                        <li>Disruptive, threatening, or unsafe behavior</li>
+                        <li>Clinical needs exceeding practice scope</li>
                     </ul>
-                    
-                    <h4>Limitations and Risks</h4>
-                    <p>While we strive to provide the highest quality care, we cannot guarantee specific outcomes from therapy. Progress depends on many factors, including your active participation, life circumstances, and other factors outside of therapy.</p>
-                    
-                    <p>Therapy can sometimes bring up uncomfortable emotions or memories. This is a normal part of the therapeutic process, but it's important to communicate with your therapist about your experience.</p>
-                    
-                    <h4>Client Responsibilities</h4>
-                    <p>As a client, you are responsible for:</p>
-                    <ul>
-                        <li>Attending scheduled appointments or providing adequate notice for cancellations</li>
-                        <li>Paying for services as agreed</li>
-                        <li>Communicating openly and honestly during sessions</li>
-                        <li>Informing your therapist of any changes in your circumstances that may affect treatment</li>
-                        <li>Following through with any agreed-upon homework or outside activities</li>
-                        <li>Contacting emergency services if you are in crisis outside of session times</li>
-                    </ul>
-                    
-                    <h4>Termination</h4>
-                    <p>Either party may terminate the therapeutic relationship at any time. We encourage you to discuss any concerns about therapy before making a decision to terminate.</p>
-                    
-                    <p>If you choose to end therapy, we recommend scheduling a final session to review progress, discuss next steps, and ensure continuity of care. We will provide appropriate referrals if requested.</p>
-                    
-                    <p>We may terminate the therapeutic relationship if:</p>
-                    <ul>
-                        <li>Your needs are outside our scope of practice or expertise</li>
-                        <li>There is a conflict of interest</li>
-                        <li>Payment arrangements are not honored</li>
-                        <li>You miss multiple appointments without communication</li>
-                        <li>The therapeutic relationship is no longer beneficial</li>
-                    </ul>
-                    
-                    <p>In the event of termination, you are responsible for any outstanding balances, and we will provide referrals to other providers when appropriate.</p>
-                    
-                    <h4>Record Keeping and Retention</h4>
-                    <p>We maintain clinical records in accordance with Connecticut state law and professional ethical guidelines. Records are kept for a minimum of seven years from the last date of service (or longer if required by law). After the retention period, records are destroyed in a secure manner.</p>
-                    
-                    <h4>Website & Technology Use</h4>
-                    <p>Our website and patient portal use industry-standard security measures to protect your information. However, no electronic communication is completely secure. By using our digital services, you acknowledge and accept these inherent risks.</p>
-                    
-                    <p>When using telehealth services, you are responsible for ensuring you have a stable internet connection and are in a private, confidential location.</p>
-                    
-                    <h4>Agreement to Terms</h4>
-                    <p class="policy-note">These terms are effective as of your first appointment and remain in effect throughout our therapeutic relationship. By attending your first session, you acknowledge that you have received, read, and agree to these terms of service.</p>
+                    <p>Written notice provided except in immediate safety concerns. Immediate termination may occur for threats, violence, harassment, or illegal activity.</p>
+                    <h4>Policy Acknowledgment</h4>
+                    <p>By engaging in services, clients acknowledge they have read, understood, and agreed to these policies.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
                     <h3>Aligned Mind</h3>
-                    <p class="footer-tagline">Where mental health meets inner balance</p>
+                    <p class="footer-tagline">Psychiatry & Wellness</p>
                 </div>
-                
                 <div class="footer-links">
                     <div class="footer-column">
                         <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="./">Home</a></li>
-                            <li><a href="about">About</a></li>
-                            <li><a href="services">Services</a></li>
-                            <li><a href="contact">Contact</a></li>
-                        </ul>
+                        <ul><li><a href="./">Home</a></li><li><a href="about">About</a></li><li><a href="services">Services</a></li><li><a href="contact">Contact</a></li></ul>
                     </div>
-                    
                     <div class="footer-column">
                         <h4>Information</h4>
-                        <ul>
-                            <li><a href="faq">FAQ</a></li>
-                            <li><a href="practice-info">Practice Policies</a></li>
-                            <li><a href="practice-info">Privacy Policy</a></li>
-                            <li><a href="https://portal.example.com" target="_blank">Patient Portal</a></li>
-                        </ul>
+                        <ul><li><a href="faq">FAQ</a></li><li><a href="practice-info">Practice Policies</a></li><li><a href="https://portal.example.com" target="_blank">Patient Portal</a></li></ul>
                     </div>
-                    
                     <div class="footer-column">
                         <h4>Contact</h4>
-                        <ul>
-                            <li>44 River Street, Suite 1A</li>
-                            <li>Milford, CT 06460</li>
-                            <li><a href="tel:2032932575">(203) 293-2575</a></li>
-                            <li><a href="/cdn-cgi/l/email-protection#e3828d8da3828f8a848d86878e8a8d8793909a808b8a8297919a828d8794868f8f8d869090cd808c8e">Email Us</a></li>
-                        </ul>
+                        <ul><li>44 River Street, Suite 1A</li><li>Milford, CT 06460</li><li><a href="tel:2032932575">(203) 293-2575</a></li><li><a href="mailto:ann@alignedmindpsychiatryandwellness.com">Email Us</a></li></ul>
                     </div>
                 </div>
             </div>
-            
             <div class="footer-bottom">
                 <p>&copy; 2025 Aligned Mind Psychiatry and Wellness. All rights reserved.</p>
                 <p class="crisis-line">Crisis? Call or text 988 for the Suicide & Crisis Lifeline</p>
             </div>
         </div>
-    </
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
